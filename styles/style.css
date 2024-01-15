@@ -40,7 +40,7 @@ nav li a{
 }
 /* main  section 1*/
 .section-1{
-    background-image: linear-gradient(rgba(15, 15, 15, 0.7),rgb(78, 78, 78,0.2)), url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-image: linear-gradient(rgba(15, 15, 15, 0.7),rgb(78, 78, 78,0.2)), url(../image/Group\ 13\ \(1\)\ \(1\).png);
     max-width: 1600px;
     height: 500px;
     border-radius: 10px;
@@ -103,6 +103,28 @@ nav li a{
     color: #fff;
     background-color: #FF5400;
 }
+/* section 2 */
+.section-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 3%;
+    max-width: 1600px;
+    margin: 120px auto;
+}
+.article-2{
+    padding: 20px;
+}
+.head-1{
+    font-size: 3.1rem;
+    font-weight: 800;
+    color: #131318;
+}
+.art-1{
+    color: rgba(19, 19, 24, 0.70);
+}
+.article-2 li{
+    color: rgba(19, 19, 24, 0.70);
+}
 /* media mobile */
 @media screen and (max-width:576px) {
     /* header section */
@@ -116,7 +138,7 @@ nav li a{
     }
     nav > ul{
         padding: 0;
-        padding-left: 15px;
+
         gap: 15px;
     }
     /* section-1 */
@@ -126,16 +148,24 @@ nav li a{
         margin: 0 10px;
     }
     .greet{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .form-1{
         display: grid;
-        margin: 5px 15px;
+        margin: 5px 10px;
     }
     #select{
         width:300px;
     }
     .btn-primary{
         width: 330px;
+    }
+    /* section 2 */
+    .section-2{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .lvl{
+        width: 120px;
     }
 }
