@@ -585,6 +585,8 @@ nav li a:hover{
     .section-7{
         flex-direction: column;
         padding: 5px;
+        margin: auto;
+        margin-top: 10px;
     }
     .img-3 img{
         max-width: 100%;
