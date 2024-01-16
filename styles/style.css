@@ -131,10 +131,13 @@ nav li a{
     max-width: 1600px;
     margin: auto;
     gap: 30px;
-    margin-top: 120px;
+    margin-top: 140px;
 }
 .article-3{
     text-align: center;
+}
+.head-2{
+    font-size: 2rem;
 }
 .art2{
     color: rgba(19, 19, 24, 0.70);
@@ -171,6 +174,51 @@ nav li a{
 }
 .travel img{
     position: relative;
+}
+/* section 4 */
+.section-4{
+    max-width: 1600px;
+    margin: auto;
+    margin-top: 140px;
+}
+.art-3{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    margin-top: 40px;
+    max-width: 1600px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card-1{
+    background: rgba(251, 181, 99, 0.05);
+    padding: 50px 0;
+    padding-left: 30px;
+    padding-right: 100px;
+    border-radius: 20px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+}
+.card-2{
+    background:  rgba(41, 206, 246, 0.20);
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    padding: 50px 0;
+    padding-left: 30px;
+    padding-right: 100px;
+    border-radius: 20px;
+}
+.card-3{
+    margin: 0 380px;
+    margin-top: 20px;
+    background: rgba(233, 68, 68, 0.05);
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    padding: 50px 0;
+    padding-left: 30px;
+    border-radius: 20px;
+    padding-right: 100px;
+}
+.title-5{
+    font-size: 1.5rem;
 }
 /* media mobile */
 @media screen and (max-width:576px) {
@@ -210,7 +258,7 @@ nav li a{
     /* section 2 */
     .section-2{
         flex-direction: column;
-        padding: 10px;
+        padding: 5px;
         margin: auto;
     }
     .lvl{
@@ -218,8 +266,11 @@ nav li a{
     }
     /* section 3 */
     .section-3{
-        padding: 10px;
+        padding: 5px;
         margin: auto;
+    }
+    .travel{
+        padding: 0 5px;
     }
     .travel-img{
         flex-direction: column;
@@ -231,13 +282,41 @@ nav li a{
         flex-direction: column;
     }
     .travel-img img{
-        width: 380px;
+       max-width: 100%;
+    }
+    #lanka{
+        width: 400px;
+        height: 230px;
+    }
+    #kasmir{
+       width: 400px;
+       height: 230px;
     }
     .travel-img-2 img{
-        width: 380px;
+        max-width: 100%;
+    }
+    .head-2{
+        font-size: 1.4rem;
     }
     .text{
         top: 35%;
         left: 35%;
+    }
+    /* section 4 */
+    .section-4{
+       padding: 0 5px;
+       margin-top: auto;
+    }
+    .cards{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .card-1, .card-2{
+        padding-right: 20px;
+    }
+    .card-3{
+        margin: auto;
+        margin-top: 10px;
+        padding-right: 20px;
     }
 }
