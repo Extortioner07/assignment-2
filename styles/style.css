@@ -220,6 +220,65 @@ nav li a{
 .title-5{
     font-size: 1.5rem;
 }
+/* section 5 */
+.section-5{
+    margin-top: 140px;
+}
+.sec-5{
+    text-align: center;
+}
+.hotel-1{
+    background-image: url(../image/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 1600px;
+    height: 700px;
+
+}
+.hotel-art{
+    position: relative;
+    color:#131318;
+    background: rgb(255, 255, 255,0.8);
+    backdrop-filter: blur(2.5px);
+    max-width: 600px;
+    top: 30%;
+    left: 800px;
+    border-radius: 20px;
+    padding: 50px 30px;
+}
+.hotel-2{
+    background-image: url(../image/Group\ 40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    max-width: 1600px;
+    height: 700px;
+}
+.hotel-art-2{
+    position: relative;
+    color: #131318;
+    background: rgb(255, 255, 255,0.8);
+    backdrop-filter: blur(2.5px);
+    max-width: 600px;
+    top: 30%;
+    left: 100px;
+    border-radius: 20px;
+    padding: 50px 30px;
+}
+.clock{
+    color: #FF5400;
+}
+.group{
+    color: #FF5400;
+}
+.loc{
+    color: #FF5400;
+}
 /* media mobile */
 @media screen and (max-width:576px) {
     /* header section */
@@ -318,5 +377,25 @@ nav li a{
         margin: auto;
         margin-top: 10px;
         padding-right: 20px;
+    }
+    /* section 5 */
+    .section-5{
+        padding: 5px;
+    }
+    .hotel-1{
+        background-position: center;
+        padding: 0 10px;
+    }
+    .hotel-art{
+        top: 42%;
+        left: auto;
+    }
+    .hotel-2{
+        background-position: center;
+        padding: 0 10px;
+    }
+    .hotel-art-2{
+        top: 42%;
+        left: auto;
     }
 }
